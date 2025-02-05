@@ -2,10 +2,6 @@ import random
 from string import punctuation
 from collections import defaultdict
 
-show_expected_result = False
-show_hints = False
-
-
 class MarkovChain:
     def __init__(self):
         self.graph = defaultdict(list)
